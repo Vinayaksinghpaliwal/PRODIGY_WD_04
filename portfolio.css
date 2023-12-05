@@ -1,0 +1,142 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background:rgb(30, 30, 30);
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    height:100vh;
+    width: 28%;
+}
+.intro{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    overflow-y: scroll;
+}
+.intro::-webkit-scrollbar{
+    display: none;
+}
+.intro h1{
+    text-transform: uppercase;
+    color:  #819d5c;
+}
+.profile{
+    height: 42vh;
+    width: 100%;
+    color:rgb(235, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: .1vh;
+    
+}
+
+.proimage{
+    height: 28vh;
+    width: 57%;
+}
+.proimage img{
+    height: 28vh;
+    width: 115%;
+    border-radius: 75%;
+    text-align: center;
+}
+.skillset{
+    height: 58vh;
+    width: 100%;
+}
+ul{
+    line-height: 11vh;
+    position: relative;
+    left: 5vh;
+    bottom: 0vh;
+    list-style: none;
+    font-size: 2vw;
+    letter-spacing: 0.2vh;
+    text-transform: capitalize;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(235, 223, 223);
+}
+#skills,#resume,#experience,#mywork,#about{
+    height: 100vh;
+    width: 99%;
+}
+/*  ------------------------my work ------------------*/
+#mywork{
+    overflow-y: scroll;
+}
+#mywork::-webkit-scrollbar{
+    display: none;
+}
+.landing{
+    height: 40vh;
+    width: 98%;
+    margin: 1vh;
+    background: #07f7a357;
+    text-align: right;
+    color: #d5c2c2fa;
+}
+.landing img{
+    height: 38vh;
+    width: 50vh;
+    position: relative;
+    top: -3.6vh;
+    border: solid #5e734e 0.5vh;
+}
+.landing h2{
+    width: 35%;
+    color: #d5c2c2fa;
+    text-align: left;
+    /* background: #d5c1bea3; */
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-left: 2vh;
+    letter-spacing: 0.2vh;
+}
+#skills h2{
+    height: 4vh;
+    width: 100%;
+    background: #07f7a357;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 3vh;
+    color: #d5c2c2fa;
+}
+.list_web,.list_sport{
+    color: #d5c2c2fa;
+    line-height: 11vh;
+    font-size: 3vh;
+    text-transform: capitalize;
+}
+#resume h2{
+    height: 4vh;
+    width: 100%;
+    background: #07f7a357;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 3vh;
+    color: #d5c2c2fa;
+}
+.list_ed{
+    
+    color: #d5c2c2fa;
+    line-height: 11vh;
+    font-size: 3vh;
+}
+#experience p,#about p{
+    color: #d5c2c2fa;
+    line-height: 11vh;
+    font-size: 3vh;
+}
